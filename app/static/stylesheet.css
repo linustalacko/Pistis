@@ -1,0 +1,283 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.pistis {
+    font-family: 'Work Sans', sans-serif;
+    font-size:3.3vmax;
+    font-weight: bolder;
+    padding-left: 4vmax;
+    padding-top: 2vmax;
+    position: relative;
+    color: blue;
+}
+.buts {
+    margin-left: 79vmax;
+    position: absolute;
+    margin-top: -4.9vmax;
+    
+}
+
+#login, #sign{
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.3vmax;
+    position: relative;
+    padding-left: 2vmax;  
+    
+}
+
+#sign:hover {
+    background-color: rgb(0, 10, 148);
+    transition: 0.2s ease-in 100ms;
+}
+
+#login:hover {
+    background-color: rgb(187, 191, 255);
+    transition: 0.2s ease-in 100ms;
+}
+
+#sign {
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background-color: blue;
+    background-size: 100%;
+    padding: 1vmax 1vmax;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: white;
+    transition: 0.2s ease-in 100ms;
+}
+
+#login {
+    border: 0.1vmax solid blue;
+    color: blue;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1vmax 1vmax;
+    transition: 0.2s ease-in 100ms;
+    
+}
+
+.headers {
+    text-align: center;
+    margin-top: -5vmax;
+    position: relative;
+    font-size: 1.5vmax;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+#features, #pricing, #jobs {
+    color: black;
+    font-weight: 200;
+    text-decoration: none;
+    margin-left: 1.5vmax;
+    margin-right: 35px;
+    padding: 0.5vmax;
+
+}
+
+#features:hover {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
+    padding: 0.5vmax 0.5vmax;
+    position: relative;
+
+}
+
+#pricing:hover {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
+    padding: 0.5vmax 0.5vmax;
+    position: relative;
+
+}
+
+#jobs:hover {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
+    padding: 0.5vmax 0.5vmax;
+    position: relative;
+
+}
+
+.header {
+    font-size:4.4vmax;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    position: relative;
+    padding-top: 8vmax;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.h3 {
+    font-size: 2vmax;
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+    width: 100%;
+    color: rgb(119, 119, 119);
+    padding-top: 20px;
+    font-weight: 40;
+    text-align: center;
+}
+
+.brmedium {
+    display: block;
+    margin-bottom: 0.20em;
+}
+
+.break {
+    padding: 3vmax 4vmax;
+    background-color: blue;
+    border: none;
+    position: absolute;
+    margin-top: 15.65vmax;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.learn {
+    border-radius: 60vw;
+    position: absolute;
+    border: none;
+    margin-top: 30px;
+    text-align: center;
+    background-color: blue;
+    font-size: 1.3vmax;
+    background-size: 100%;
+    padding: 20px 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease-in 100ms;
+}
+
+#btn {
+    display: flex;
+    justify-content: center; 
+}
+
+.learn:hover {
+    background-color: rgb(0, 10, 148);
+    transition: 0.2s ease-in 100ms;
+}
+
+.next {
+    color: black;
+    padding-top: 18vmax;
+    text-align: left;
+    margin-left:10vmax;
+    font-weight: 200;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3vmax;
+    position: relative;
+    margin-top: 8vmax;
+    
+}
+
+#bttn {
+    display: flex;
+    justify-content: center; 
+    margin-right: 9.5vw;
+    
+}
+
+.txt {
+    color: rgb(119, 119, 119);
+    font-weight: 10;
+    width: 90%;
+    line-height: 2.9vmax;
+    font-size: 2vmax;
+}
+
+.nxt {
+    padding: 5vmax 4vmax;
+    background-color: blue;
+    border: none;
+    position: absolute;
+    margin-top: 18vmax;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.nxtt {
+    padding-left: 6.4vw;
+    margin-top: 0vh;
+    color: white;
+    font-size: 3.5vmax;
+}
+
+.nxttt {
+    padding-left: 6.4vw;
+    font-weight: 10;
+    font-size: 1.2vmax;
+    padding-bottom: 3vmax;
+}
+
+.ftr {
+    padding: 5vmax 4vmax;
+    background-color: white;
+    border: none;
+    position: absolute;
+    margin-top: 80vmax;
+    width: 100%;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.ftrr {
+    text-align: center;
+    margin-top: 0vh;
+    color: rgb(0, 0, 0);
+    font-size: 4vmax;
+}
+
+.ftrrr {
+    text-align: center;
+    margin-top: 0vh;
+    color: rgb(119, 119, 119);
+    font-weight: 10;
+    font-size: 1.8vmax;
+}
+
+#btnf {
+    display: flex;
+    justify-content: center; 
+    padding-bottom: 8vmax;
+}
+
+.learnf {
+    border-radius: 60vw;
+    position: absolute;
+    border: none;
+    margin-top: 30px;
+    text-align: center;
+    background-color: blue;
+    font-size: 1.3vmax;
+    background-size: 100%;
+    padding: 20px 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease-in 100ms;
+
+}
+
+.learnf:hover {
+    background-color: rgb(0, 10, 148);
+    transition: 0.2s ease-in 100ms;
+}
