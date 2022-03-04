@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.pistis {
+    font-family: 'Work Sans', sans-serif;
+    font-size:4.3vmax;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 2vmax;
+    position: relative;
+    color: blue;
+}
+
+#txt {
+    font-size: 2vmax;
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+    width: 100%;
+    color: rgb(119, 119, 119);
+    padding-top: 20px;
+    font-weight: 40;
+    padding-left: 13vmax;
+}
+
+.brmedium {
+    display: block;
+    margin-bottom: 0.20em;
+}
+
+.m-subscribe1 {
+    padding-left: 13vmax;
+
+}
+
+.form-control {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.3vmax;
+    padding: 9px 10px;
+    border-radius: 0.5vw;
+    border-color: blue;
+    text-align: left;
+    width: 30vw;
+    border: 3px 1px;
+    transition: 0.2s ease-in 100ms
+}
+
+.form-control:hover {
+    background-color: rgb(223, 223, 223);
+    cursor: pointer;
+    transition: 0.2s ease-in 100ms
+}
+
+
+.form-control:focus {
+    outline: none;
+    background-color: white;
+    transition: 0.2s ease-in 100ms
+}
+
+
+
+.login {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.3vmax;
+    background-color: blue;
+    color: white;
+    border-radius: 0.5vw;
+    border: none;
+    padding: 10px 30px;
+    transition: 0.2s ease-in 100ms;
+    box-sizing: border-box;
+    margin-left: 13vmax;
+
+}
+
+.login:focus {
+    border: none;
+}
+
+.login:hover {
+    background-color: rgb(0, 10, 148);
+    transition: 0.2s ease-in 100ms;
+}
+
+.login2:hover {
+    background-color: rgb(0, 10, 148);
+    transition: 0.2s ease-in 100ms;
+}
+
+.login2 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.3vmax;
+    background-color: blue;
+    color: white;
+    border-radius: 0.5vw;
+    border: none;
+    padding: 10px 30px;
+    transition: 0.2s ease-in 100ms;
+    box-sizing: border-box;
+}
+.btn-primarymb-2:hover {
+    cursor: pointer;
+    background-color: rgb(0, 10, 148);
+    transition: 0.2s ease-in 100ms;
+}
+
+.flashes {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.3vmax;
+    background-color: blue;
+    color: white;
+    border-radius: 0.5vw;
+    border: none;
+    padding: 10px 20px;
+    transition: 0.2s ease-in 100ms;
+    box-sizing: border-box;
+    margin-left: 13vmax;
+    margin-right: 60vmax;
+
+}
