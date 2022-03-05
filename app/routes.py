@@ -19,7 +19,7 @@ def learn_more():
         db.session.add(bot)
         db.session.commit()
     else:
-        return("Sorry! This email has already subscribed!")
+        print("Sorry! This email has already subscribed!")
     return render_template('more.html', form=form)
  
 @app.route('/jobs')
