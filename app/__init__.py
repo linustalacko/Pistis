@@ -6,7 +6,7 @@ from flask_bootstrap import Bootstrap
 
 #setup/config
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///User/linus/startup/database.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'Heroku_Database_URL'
 app.config.from_object(Config)
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
